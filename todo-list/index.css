@@ -1,0 +1,42 @@
+.todoContainer {
+  padding: 20px;
+  border-radius: 5px;
+}
+#userInput {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+#todos {
+  display: none;
+  padding: 30px;
+  border-radius: 5px;
+}
+#todos li {
+  padding: 5px;
+  margin: 10px auto;
+  width: 500px;
+}
+.itemContainer {
+  display: flex;
+  border-radius: 5px;
+  width: 700px;
+  justify-content: space-between;
+}
+.leftContainer {
+  width: 400px;
+  border: solid 1px black;
+  border-radius: 5px;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.2);
+  overflow-wrap: break-word;
+}
+.rightContainer {
+  width: 200px;
+}
+.rightContainer * {
+  width: 50px;
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-left: 5px;
+}
